@@ -1,0 +1,47 @@
+html{    
+    background:url(https://minimalistbaker.com/wp-content/uploads/2015/08/AMAZING-5-Ingredient-Vanilla-Coconut-Ice-Cream-Incredibly-simple-perfectly-sweet-INSANELY-creamy-vegan-glutenfree-icecream-dessert-recipe-vanilla-coconuticecream-coconut.jpg);
+    background-position: right;
+    background-repeat: repeat;
+    
+    height:100%;
+  }
+  
+  h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 60px;
+  line-height: 1;
+  text-align: center;
+  }
+  
+  h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  line-height: 2;
+  text-align: center;
+  }
+   
+   body { 
+   padding: 10px 15px;
+   }
+  
+   
+   form{
+   margin: 0 auto;
+   max-width: 40rem;
+   background-color: white;
+   padding: 1.5rem 2rem;
+   border-radius: 8px;
+   box-shadow: 0 4px 20px
+   rgba(0, 0, 0, 0.75);
+   font-family: 'Open Sans', sans-serif;
+   }
+   
+   fieldset{
+   border-radius: 8px;
+   padding: 0.5rem;
+   }
+   
+   legend{
+   text-align: center;
+   }
+   

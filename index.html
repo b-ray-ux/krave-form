@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Krave Funnel Cones</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    </style>
+</head>
+<body>
+
+    <h1>Krave Funnel Cones</h1>
+    <h2>Online Orders</h2>
+
+<form method="post" action="form.aspx">
+
+
+  First name:<br>
+  <input type="text" name="firstname" maxlength="20"><br>
+  Last name:<br>
+  <input type="text" name="lastname" maxlength="20"><br>
+  Email address:<br>
+  <input type="email" name="email"><br>
+
+  
+  <!--Had to use the same name because of "check" -->
+<fieldset>
+    <legend>Funnel Cones</legend>
+        <p><label> <input type="radio" name="flavor" value="superman" checked="checked"> Superman </label></p>
+        <p><label> <input type="radio" name="flavor" value="banana blast"> Banana Blast </label></p>
+        <p><label> <input type="radio" name="flavor" value="chocolate coma"> Chocolate Coma </label></p>
+        <p><label> <input type="radio" name="flavor" value="cookie monster"> Cookie Monster </label></p>
+        <p><label> <input type="radio" name="flavor" value="lulu belle"> Lulu Belle </label></p>
+        <p><label> <input type="radio" name="flavor" value="soul snatcher"> Soul Snatcher </label></p>
+        <p><label> <input type="radio" name="flavor" value="strawberry madness"> Strawberry Madness </label></p>
+        <p><label> <input type="radio" name="flavor" value="texas 2 step"> Texas 2 Step </label></p>
+</fieldset>
+
+<fieldset>
+    <legend>Extra Toppings</legend>
+        <p>(One dollar upcharge for each topping)</p>
+        <p><label> <input type="checkbox" name="brownies"       value="brownies"> Brownies</label></p>
+        <p><label> <input type="checkbox" name="hot fudge"      value="hot fudge"> Hot Fudge</label></p>
+        <p><label> <input type="checkbox" name="pecans"         value="pecans"> Pecans</label></p>
+        <p><label> <input type="checkbox" name="peach cobbler"  value="peach cobbler"> Peach Cobbler</label></p>
+        <p><label> <input type="checkbox" name="strawberries"   value="strawberries"> Strawberries</label></p>
+        <p><label> <input type="checkbox" name="oreos"          value="oreos"> Oreos</label></p>
+        <p><label> <input type="checkbox" name="bananas"        value="bananas"> Bananas</label></p>
+        <p><label> <input type="checkbox" name="vanilla wafers" value="vanilla wafers"> Vanilla Wafers</label></p>
+</fieldset>
+
+<p><label>Special Instructions: </label>
+<textarea name="comment" cols="50" maxlength="1000"></textarea>
+</p>
+
+<p><input type="reset" value="Clear Button"></p>
+<p><input type="submit" value="submit"></p>
+
+
+
+</form>
+</body>
+</html>
